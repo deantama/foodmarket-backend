@@ -12,7 +12,7 @@ class Food extends Model
 
     protected $fillable = [
         'name', 'description', 'ingredients',
-        'price', 'rate', 'types','picturePath',
+        'price', 'rate', 'types','picturePath'
     ];
 
     public function getCreatedAttribute($value)
